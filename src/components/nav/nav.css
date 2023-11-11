@@ -1,0 +1,31 @@
+header{
+  border: 1px solid;
+  background-color: var(--primer-color);
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  padding: 1rem;
+}
+
+
+.tituloPrincipal{
+  margin-right: auto;
+  color: var(--texto-color);
+
+}
+
+.nav{
+  display: flex;
+  list-style: none;
+  gap: 0.5rem;
+}
+
+.navItem > a {
+  color: var(--texto-color);
+  text-decoration: none;
+  font-size: 1.3rem;
+}
+
+.navItem > a:hover{
+  color: #e6d628a2
+}

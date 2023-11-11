@@ -1,0 +1,22 @@
+{
+  "nombre": "Batman",
+  "imagen": "https://images3.alphacoders.com/103/1033318.jpg",
+  "descripcion": "Batman, también conocido como Bruce Wayne, es un superhéroe de DC Comics. Después de ser testigo del asesinato de sus padres cuando era niño, juró venganza contra los criminales y luchó incansablemente para proteger a Gotham City de la delincuencia.",
+  "contacto": [
+    {
+      "id": 1,
+      "icono": "bi bi-envelope",
+      "url": "mailto:batman@example.com"
+    },
+    {
+      "id": 2,
+      "icono": "bi bi-facebook",
+      "url": "https://www.facebook.com/BatmanOfficial"
+    },
+    {
+      "id": 3,
+      "icono": "bi bi-twitter",
+      "url": "https://twitter.com/Batman"
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+:root{
+  --primer-color: #222222;
+  --segundo-color: #020e25;;
+  --texto-color: #E6D628
+
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  color: #fff;
+}
+
+body{
+  background-color: var(--segundo-color);
+}
+
+.titulo{
+  font-size: 4rem;
+  color: var(--texto-color);
+  text-align: center;
+}
+
+.containerCard{
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+  width: 80%;
+  justify-content: space-around;
+  row-gap: 1rem;
+}
