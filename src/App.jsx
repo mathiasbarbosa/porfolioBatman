@@ -4,7 +4,7 @@ import Hero from './components/hero/Hero'
 import 'bootstrap-icons/font/bootstrap-icons.css'
 import './style.css'
 import MyServices from "./components/myServices/MyServices"
-
+import PricePlans from "./components/pricesPlans/PricePlans"
 
 
 function App() {
@@ -25,7 +25,7 @@ function App() {
                   <Nav nombre={perfil.nombre} /> 
                   <Hero perfil={perfil} />
                   <MyServices />
-                  {/* <PricePlans /> */}
+                  <PricePlans />
                   </>
                   )
         : <h1>cargando...</h1>

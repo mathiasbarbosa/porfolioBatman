@@ -1,0 +1,56 @@
+.cardPrices{
+  width: 310px;
+  height: 609px;
+  background-color: var(--primer-color);
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.cardPrices > div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+}
+
+.card-title{
+  font-size: 2rem;
+}
+
+.card-desc{
+  text-align: center;
+}
+
+.card-price{
+  font-size: 3rem;
+  font-weight: 800;
+}
+
+.card-price > small {
+  font-size: 1rem;
+}
+
+.card-list{
+  list-style: none;
+  width: 253px;
+  height: 305px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  font-size: 1.3rem;
+}
+
+.card-list > li{
+  display: flex;
+  gap: 0.8rem;
+}
+
+.card-btn{
+  width: 169px;
+  height: 38px;
+  border-radius: 30px;
+  color: black;
+}
