@@ -16,7 +16,7 @@ const CardPrices = ({nombre, precio, descripcion, plan, id, handleSelected, isAc
   return (
 
 
-  <div className='cardPrices' onClick={() => handleSelected(id)}>
+  <div className='cardPrices'  onClick={() => handleSelected(id)}>
       <div>
         <h3 className='card-title'>{nombre}</h3>
         <strong className='card-price'> ${precio}.00 <small>/hour</small></strong>

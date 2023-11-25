@@ -5,6 +5,7 @@ import 'bootstrap-icons/font/bootstrap-icons.css'
 import './style.css'
 import MyServices from "./components/myServices/MyServices"
 import PricePlans from "./components/pricesPlans/PricePlans"
+import FormContacto from "./components/contacto/FormContacto"
 
 
 function App() {
@@ -26,6 +27,7 @@ function App() {
                   <Hero perfil={perfil} />
                   <MyServices />
                   <PricePlans />
+                  <FormContacto />
                   </>
                   )
         : <h1>cargando...</h1>
